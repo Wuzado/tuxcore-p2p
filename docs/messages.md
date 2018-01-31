@@ -1,5 +1,5 @@
 # Messages
-The litecoin protocol specifies a set of [messages](https://en.bitcoin.it/wiki/Protocol_specification) that can be sent from peer to peer. `litecore-p2p` provides support for some of these messages.
+The litecoin protocol specifies a set of [messages](https://en.bitcoin.it/wiki/Protocol_specification) that can be sent from peer to peer. `garlicore-p2p` provides support for some of these messages.
 
 To create a message, you can use any of the message constructors, here is a simple example:
 
@@ -16,7 +16,7 @@ message = messages.GetData.forBlock(blockHash);
 message = messages.Inventory.forTransaction(txHash);
 ```
 
-As well as sending "tx" and "block" messages with Litecore instances:
+As well as sending "tx" and "block" messages with garlicore instances:
 
 ```javascript
 message = messages.Block(block);
@@ -39,7 +39,7 @@ var messages = new Messages({network: Networks.testnet});
 
 ## List of Messages
 ### Version
-The version message (`ver`) is used on connection creation, to advertise the type of node. The remote node will respond with its version, and no communication is possible until both peers have exchanged their versions. By default, litecore advertises itself as named `litecore` with the current version of the `litecore-p2p` package.
+The version message (`ver`) is used on connection creation, to advertise the type of node. The remote node will respond with its version, and no communication is possible until both peers have exchanged their versions. By default, garlicore advertises itself as named `garlicore` with the current version of the `garlicore-p2p` package.
 
 ### VerAck
 Finishes the connection handshake started by the `ver` message.

@@ -1,7 +1,7 @@
 {
-  "name": "litecore-p2p",
+  "name": "garlicore-p2p",
   "version": "1.1.2",
-  "description": "Interface to the litecoin P2P network for litecore",
+  "description": "Interface to the garlicoin P2P network for garlicore",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
   "scripts": {
@@ -48,21 +48,21 @@
     }
   ],
   "keywords": [
-    "litecoin",
-    "litecore"
+    "garlicoin",
+    "garlicore"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/litecoin-project/litecore-p2p.git"
+    "url": "https://github.com/garlicoin-project/garlicore-p2p.git"
   },
   "dependencies": {
-    "litecore-lib": "^0.13.19",
+    "garlicore-lib": "garlicoin-project/garlicore-lib#segwit",
     "bloom-filter": "^0.2.0",
     "buffers": "bitpay/node-buffers#v0.1.2-bitpay",
     "socks5-client": "^0.3.6"
   },
   "devDependencies": {
-    "litecore-build": "git://github.com/litecoin-project/litecore-build.git",
+    "garlicore-build": "garlicoin-project/garlicore-build#master",
     "brfs": "^1.2.0",
     "chai": "~1.10.0",
     "gulp": "^3.8.10",

@@ -1,4 +1,4 @@
-var litecore = require('litecore-lib');
-litecore.P2P = require('./lib');
+var garlicore = require('garlicore-lib');
+garlicore.P2P = require('./lib');
 
-module.exports = litecore.P2P;
+module.exports = garlicore.P2P;
