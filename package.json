@@ -10,43 +10,6 @@
     "coverage": "gulp coverage",
     "build": "gulp"
   },
-  "contributors": [
-    {
-      "name": "Charlie Lee",
-      "email": "coblee@litecoin.org"
-    },
-    {
-      "name": "Yemel Jardi",
-      "email": "yemel@bitpay.com"
-    },
-    {
-      "name": "Braydon Fuller",
-      "email": "braydon@bitpay.com"
-    },
-    {
-      "name": "Ryan X. Charles",
-      "email": "ryan@bitpay.com"
-    },
-    {
-      "name": "Eric Martindale",
-      "email": "eric@bitpay.com"
-    },
-    {
-      "name": "Philip Hutchins",
-      "email": "philip@bitpay.com"
-    },
-    {
-      "name": "Manuel Araoz",
-      "email": "maraoz@bitpay.com"
-    },
-    {
-      "name": "Esteban Ordano",
-      "email": "eordano@gmail.com"
-    },
-    {
-      "name": "Elichai Turkel"
-    }
-  ],
   "keywords": [
     "garlicoin",
     "garlicore"
@@ -56,7 +19,7 @@
     "url": "https://github.com/garlicoin-project/garlicore-p2p.git"
   },
   "dependencies": {
-    "garlicore-lib": "garlicoin-project/garlicore-lib#segwit",
+    "garlicore-lib": "^0.1.0",
     "bloom-filter": "^0.2.0",
     "buffers": "bitpay/node-buffers#v0.1.2-bitpay",
     "socks5-client": "^0.3.6"
