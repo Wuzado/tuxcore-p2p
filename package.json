@@ -18,7 +18,7 @@
     "url": "https://github.com/garlicoin-project/garlicoin-p2p.git"
   },
   "dependencies": {
-    "garlicore-lib": "git://github.com/garlicoin-project/garlicore-lib.git#gcoin",
+    "garlicore-lib": "5.0.0",
     "bloom-filter": "^0.2.0",
     "buffers": "bitpay/node-buffers#v0.1.2-bitpay",
     "socks5-client": "^0.3.6"
