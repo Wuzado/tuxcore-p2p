@@ -1,7 +1,7 @@
 {
-  "name": "bitcore-p2p",
+  "name": "garlicore-p2p",
   "version": "5.0.0-beta.2",
-  "description": "Interface to the bitcoin P2P network for bitcore",
+  "description": "Interface to the bitcoin P2P network for garlicore",
   "main": "index.js",
   "scripts": {
     "lint": "gulp lint",
@@ -11,21 +11,20 @@
   },
   "keywords": [
     "bitcoin",
-    "bitcore"
+    "garlicore"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/bitcore-p2p.git"
+    "url": "https://github.com/garlicoin-project/garlicoin-p2p.git"
   },
   "dependencies": {
-    "bitcore-lib": "5.0.0-beta.1",
-    "bcoin": "1.0.0-beta.12",
+    "garlicore-lib": "git://github.com/garlicoin-project/garlicore-lib.git#gcoin",
     "bloom-filter": "^0.2.0",
     "buffers": "bitpay/node-buffers#v0.1.2-bitpay",
     "socks5-client": "^0.3.6"
   },
   "devDependencies": {
-    "bitcore-build": "git://github.com/bitpay/bitcore-build.git",
+    "garlicore-build": "git://github.com/garlicoin-project/garlicore-build.git",
     "brfs": "^1.2.0",
     "chai": "~1.10.0",
     "gulp": "^3.8.10",

@@ -4,12 +4,12 @@
 
 var should = require('chai').should();
 
-var bitcore = require('bitcore-lib');
+var garlicore = require('garlicore-lib');
 var P2P = require('../');
 var Inventory = P2P.Inventory;
-var BufferUtils = bitcore.util.buffer;
-var BufferWriter = bitcore.encoding.BufferWriter;
-var BufferReader = bitcore.encoding.BufferReader;
+var BufferUtils = garlicore.util.buffer;
+var BufferWriter = garlicore.encoding.BufferWriter;
+var BufferReader = garlicore.encoding.BufferReader;
 
 describe('Inventory', function() {
 

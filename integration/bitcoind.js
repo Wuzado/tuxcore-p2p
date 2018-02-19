@@ -6,19 +6,19 @@ var chai = require('chai');
 var should = chai.should();
 var sinon = require('sinon');
 
-var bitcore = require('bitcore-lib');
-var _ = bitcore.deps._;
-var Random = bitcore.crypto.Random;
-var BN = bitcore.crypto.BN;
-var BufferUtil = bitcore.util.buffer;
+var garlicore = require('garlicore-lib');
+var _ = garlicore.deps._;
+var Random = garlicore.crypto.Random;
+var BN = garlicore.crypto.BN;
+var BufferUtil = garlicore.util.buffer;
 var p2p = require('../');
 var Peer = p2p.Peer;
 var Pool = p2p.Pool;
-var Networks = bitcore.Networks;
+var Networks = garlicore.Networks;
 var Messages = p2p.Messages;
 var Inventory = p2p.Inventory;
-var Block = bitcore.Block;
-var Transaction = bitcore.Transaction;
+var Block = garlicore.Block;
+var Transaction = garlicore.Transaction;
 
 // config 
 var network = process.env.NETWORK === 'testnet' ? Networks.testnet : Networks.livenet;
