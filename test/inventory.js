@@ -4,7 +4,7 @@
 
 var should = require('chai').should();
 
-var bitcore = require('garlicore-lib');
+var bitcore = require('tuxcore-lib');
 var P2P = require('../');
 var Inventory = P2P.Inventory;
 var BufferUtils = bitcore.util.buffer;
