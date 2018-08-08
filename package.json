@@ -1,7 +1,7 @@
 {
-  "name": "garlicore-p2p",
+  "name": "tuxcore-p2p",
   "version": "1.1.2",
-  "description": "Interface to the garlicoin P2P network for garlicore",
+  "description": "Interface to the Tuxcoin P2P network for Tuxcore",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
   "scripts": {
@@ -11,21 +11,21 @@
     "build": "gulp"
   },
   "keywords": [
-    "garlicoin",
-    "garlicore"
+    "tuxcoin",
+    "tuxcore"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/garlicoin-project/garlicore-p2p.git"
+    "url": "https://github.com/Wuzado/tuxcore-p2p.git"
   },
   "dependencies": {
-    "garlicore-lib": "^0.1.0",
+    "tuxcore-lib": "^0.1.0",
     "bloom-filter": "^0.2.0",
     "buffers": "bitpay/node-buffers#v0.1.2-bitpay",
     "socks5-client": "^0.3.6"
   },
   "devDependencies": {
-    "garlicore-build": "garlicoin-project/garlicore-build#master",
+    "tuxcore-build": "tuxcoin-project/tuxcore-build#master",
     "brfs": "^1.2.0",
     "chai": "~1.10.0",
     "gulp": "^3.8.10",

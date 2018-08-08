@@ -5,8 +5,8 @@ The quickest way to get connected is to run the following:
 
 ```javascript
 
-var Pool = require('garlicore-p2p').Pool;
-var Networks = require('garlicore-lib').Networks;
+var Pool = require('tuxcore-p2p').Pool;
+var Networks = require('tuxcore-lib').Networks;
 
 var pool = new Pool({network: Networks.livenet});
 

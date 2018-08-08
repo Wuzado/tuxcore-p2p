@@ -1,4 +1,4 @@
-var garlicore = require('garlicore-lib');
-garlicore.P2P = require('./lib');
+var tuxcore = require('tuxcore-lib');
+tuxcore.P2P = require('./lib');
 
-module.exports = garlicore.P2P;
+module.exports = tuxcore.P2P;

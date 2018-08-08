@@ -1,3 +1,3 @@
 # Contributing
 
-Please see [CONTRIBUTING.md](https://github.com/litecoin-project/garlicore/blob/master/CONTRIBUTING.md) on the main garlicore repo.
+Please see [CONTRIBUTING.md](https://github.com/litecoin-project/tuxcore/blob/master/CONTRIBUTING.md) on the main tuxcore repo.

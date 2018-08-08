@@ -1,8 +1,8 @@
 'use strict';
 
 var gulp = require('gulp');
-var garlicoreTasks = require('garlicore-build');
+var tuxcoreTasks = require('tuxcore-build');
 
-garlicoreTasks('p2p', {skipBrowser: true});
+tuxcoreTasks('p2p', {skipBrowser: true});
 
 gulp.task('default', ['lint', 'coverage']);
