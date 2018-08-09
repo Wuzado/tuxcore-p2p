@@ -19,7 +19,7 @@
     "url": "https://github.com/Wuzado/tuxcore-p2p.git"
   },
   "dependencies": {
-    "tuxcore-lib": "^0.1.0",
+    "tuxcore-lib": "^0.4.19",
     "bloom-filter": "^0.2.0",
     "buffers": "bitpay/node-buffers#v0.1.2-bitpay",
     "socks5-client": "^0.3.6"
